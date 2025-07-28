@@ -75,7 +75,7 @@ Dirancang dengan antarmuka modern dan responsif, aplikasi ini mendukung input me
 ### Akses Online
 
 Aplikasi telah di-deploy di Netlify:  
-👉 [Demonstrasi Kalkulator Langsung](#)
+👉 [Demonstrasi Kalkulator Langsung](https://kalkulator-ilmiah.netlify.app/)
 
 ---
 
