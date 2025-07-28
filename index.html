@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scientific Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Scientific Calculator</h1>
+            <p>Advanced calculator with multiple calculation modes</p>
+        </header>
+        
+        <div class="calculator">
+            <div class="tabs">
+                <button class="tab active" data-tab="basic">Basic</button>
+                <button class="tab" data-tab="scientific">Scientific</button>
+                <button class="tab" data-tab="unit">Unit</button>
+            </div>
+            
+            <div class="display">
+                <input type="text" id="output" readonly value="0" tabindex="0">
+            </div>
+            
+            <div class="tab-content active" id="basic-content">
+                <div class="buttons-grid" id="basic-buttons"></div>
+            </div>
+            
+            <div class="tab-content" id="scientific-content">
+                <div class="buttons-grid" id="scientific-buttons"></div>
+            </div>
+            
+            <div class="tab-content" id="unit-content">
+                <div class="buttons-grid" id="unit-buttons"></div>
+            </div>
+        </div>
+        
+        <footer>
+            <div class="footer-content">
+                <p>© 2025 Scientific Calculator | Created by Lesmana</p>
+                <div class="links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Use</a>
+                    <a href="#">Contact</a>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
